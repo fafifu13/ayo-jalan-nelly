@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
     sendWhatsApp.addEventListener("click", () => {
         const selectedDate = datePicker.value;
         if (selectedDate) {
-            const phoneNumber = "081259543473";
+            const phoneNumber = "+6281259543473";
             const message = `Hai! Saya mau jalan tanggal ${selectedDate}.`;
             const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
             window.open(url, "_blank");
